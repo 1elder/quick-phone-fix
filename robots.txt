@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://1elder.github.io/quick-phone-fix/sitemap.xml
