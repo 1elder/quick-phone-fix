@@ -2,10 +2,10 @@
 /* Placeholder content — swap real reviews + smoke-shop menu when they arrive. */
 
 const SHOP_CATEGORIES = [
-  { icon: "i-vape",  name: "Vapes & Disposables", desc: "Top brands, big flavor selection." },
-  { icon: "i-cigar", name: "Cigars",              desc: "Singles and boxes, kept fresh." },
-  { icon: "i-leaf",  name: "Delta-8 & Hemp",      desc: "Flower, edibles and more." },
-  { icon: "i-glass", name: "Glass & Accessories", desc: "Pipes, grinders, wraps and gear." },
+  { icon: "i-vape",  name: "Vapes & Disposables", desc: "Top brands, big flavor selection.", name_es: "Vapes y desechables", desc_es: "Buenas marcas, mucha variedad de sabores." },
+  { icon: "i-cigar", name: "Cigars",              desc: "Singles and boxes, kept fresh.",     name_es: "Cigarros",           desc_es: "Sueltos y por caja, siempre frescos." },
+  { icon: "i-leaf",  name: "Delta-8 & Hemp",      desc: "Flower, edibles and more.",          name_es: "Delta-8 y hemp",     desc_es: "Flor, comestibles y más." },
+  { icon: "i-glass", name: "Glass & Accessories", desc: "Pipes, grinders, wraps and gear.",   name_es: "Vidrio y accesorios", desc_es: "Pipas, grinders, wraps y más." },
 ];
 
 /* Real Google reviews (lightly cleaned, kept faithful). Add more as they come in. */

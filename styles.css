@@ -102,6 +102,9 @@ header { position: sticky; top: 0; z-index: 50; background: rgba(10,13,20,.82); 
 .nav-right { display: flex; align-items: center; gap: 12px; }
 .menu-btn { display: none; background: none; border: 0; color: var(--text); cursor: pointer; padding: 6px; }
 .menu-btn .ic { width: 26px; height: 26px; }
+.lang-toggle { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,.04); border: 1px solid var(--line-2); color: var(--muted); font-family: var(--display); font-weight: 600; font-size: 13px; padding: 7px 12px; border-radius: 999px; cursor: pointer; transition: color .15s, border-color .15s, background .15s; }
+.lang-toggle:hover { color: var(--text); border-color: var(--blue); background: var(--blue-dim); }
+.lang-toggle .ic { width: 16px; height: 16px; color: var(--blue-2); }
 
 /* ---- Hero ---- */
 .hero { position: relative; overflow: hidden; padding: 74px 0 80px; }
