@@ -134,6 +134,33 @@ header { position: sticky; top: 0; z-index: 50; background: rgba(10,13,20,.82); 
 .hc-foot { text-align: center; font-size: 13px; color: var(--faint); margin-top: 14px; }
 .hc-foot a { color: var(--blue-2); font-weight: 600; }
 
+/* ---- Dual path (two shops, one stop) ---- */
+.paths { padding: 8px 0 46px; }
+.paths-head { text-align: center; margin-bottom: 20px; }
+.paths-label { font-family: var(--display); font-size: 12.5px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); position: relative; }
+.paths-label::before, .paths-label::after { content: ""; position: absolute; top: 50%; width: 40px; height: 1px; background: var(--line-2); }
+.paths-label::before { right: calc(100% + 16px); }
+.paths-label::after { left: calc(100% + 16px); }
+.paths-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.path { display: flex; align-items: center; gap: 18px; padding: 24px 26px; border-radius: var(--radius); border: 1px solid var(--line-2); background: var(--surface); transition: transform .2s var(--ease), border-color .2s, box-shadow .25s, background .2s; }
+.path:hover { transform: translateY(-4px); }
+.path-ic { width: 54px; height: 54px; border-radius: 14px; display: grid; place-items: center; flex: none; }
+.path-ic .ic { width: 27px; height: 27px; }
+.path-body h3 { font-family: var(--display); font-size: 19px; font-weight: 700; }
+.path-body p { color: var(--muted); font-size: 13.5px; margin: 5px 0 9px; }
+.path-link { font-family: var(--display); font-weight: 600; font-size: 14px; }
+.path-body > .ic { display: none; }
+.path-repair .path-ic { background: var(--blue-dim); color: var(--blue-2); }
+.path-repair:hover { border-color: rgba(46,155,255,.5); box-shadow: 0 20px 44px -20px rgba(46,155,255,.45); background: var(--surface-2); }
+.path-repair .path-link { color: var(--blue-2); }
+.path-shop .path-ic { background: var(--violet-dim); color: var(--violet-2); }
+.path-shop:hover { border-color: rgba(169,123,255,.5); box-shadow: 0 20px 44px -20px rgba(169,123,255,.45); background: var(--surface-2); }
+.path-shop .path-link { color: var(--violet-2); }
+
+/* Smoke-shop nav link accent so it's findable in the header */
+.nav-links a.nav-shop { color: var(--violet-2); }
+.nav-links a.nav-shop:hover { color: var(--violet); }
+
 /* ---- Trust strip ---- */
 .strip { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--bg-2); }
 .strip-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 0; }
@@ -307,6 +334,9 @@ footer { background: var(--bg-2); border-top: 1px solid var(--line); padding: 50
   .sec-head h2 { font-size: 28px; }
   .svc-grid, .cat-grid, .rev-grid { grid-template-columns: 1fr; }
   .foot-cols { gap: 32px; }
+  .paths-grid { grid-template-columns: 1fr; }
+  .path { align-items: flex-start; }
+  .path-ic { margin-top: 2px; }
   .visit-gallery { grid-template-columns: 1fr; }
   .visit-gallery img { height: 220px; }
   .shop-banner img { height: 220px; }

@@ -16,6 +16,14 @@ const I18N = {
     "hero.card.btn": "Start estimate",
     "hero.card.foot": 'Or just call <a href="tel:+13212367773">(321) 236-7773</a> — we\'ll answer.',
 
+    "paths.label": "Two shops, one stop",
+    "paths.rep.h": "Phone & device repair",
+    "paths.rep.p": "Screens, batteries, water damage and more. Most fixed same day, with a warranty.",
+    "paths.rep.cta": "Get a quote",
+    "paths.shop.h": 'Smoke shop <span class="tag21">21+</span>',
+    "paths.shop.p": "Vapes, cigars, glass and all the accessories. Open late, every day.",
+    "paths.shop.cta": "Browse the shop",
+
     "strip.1h": "Fast, same-day", "strip.1p": "Most repairs while you wait",
     "strip.2h": "Warranty on repairs", "strip.2p": "Parts & labor covered",
     "strip.3h": "No fix, no fee", "strip.3p": "You only pay if we solve it",
@@ -101,6 +109,14 @@ const I18N = {
     "hero.card.p": "Elige tu marca y el problema para ver un precio y tiempo aproximado. Sin compromiso.",
     "hero.card.btn": "Empezar cotización",
     "hero.card.foot": 'O solo llama al <a href="tel:+13212367773">(321) 236-7773</a> — te contestamos.',
+
+    "paths.label": "Dos tiendas, una sola parada",
+    "paths.rep.h": "Reparación de celulares y equipos",
+    "paths.rep.p": "Pantallas, baterías, daño por agua y más. La mayoría el mismo día y con garantía.",
+    "paths.rep.cta": "Cotiza aquí",
+    "paths.shop.h": 'Smoke shop <span class="tag21">21+</span>',
+    "paths.shop.p": "Vapes, cigarros, vidrio y todos los accesorios. Abierto hasta tarde, todos los días.",
+    "paths.shop.cta": "Ver la tienda",
 
     "strip.1h": "Rápido, el mismo día", "strip.1p": "La mayoría mientras esperas",
     "strip.2h": "Garantía en reparaciones", "strip.2p": "Piezas y mano de obra",
